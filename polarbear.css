@@ -1,8 +1,14 @@
 
 body {
-    background-color: lightblue;
+    background-color: aliceblue;
 }
 
 h1{
     font-size: 40px;
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
 }
