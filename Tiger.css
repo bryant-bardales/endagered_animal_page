@@ -14,9 +14,25 @@ font-size: 25px;
   color: orange;
 }
 
-#button{
-text-align: center;
+.button{
+  display: inline;
+  height:20px;
+    width:100px;
+    margin: -20px -50px;
+    position:relative;
+    top:50%;
+    left:30%;
+
 }
+
+li{
+  color: black;
+
+  font-family: 'DM Serif Display',serif ;
+
+}
+
+
 body{
   background-color: #ffdead;
 }
