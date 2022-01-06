@@ -17,7 +17,9 @@ font-size: 25px;
 #button{
 text-align: center;
 }
-
+body{
+  background-color: #ffdead;
+}
 p{
   color: black;
   text-align: center;
