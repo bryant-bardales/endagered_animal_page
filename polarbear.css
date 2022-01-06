@@ -1,16 +1,18 @@
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(171, 215, 253);
+    font-size: 21px;
 }
 
 h1{
-    font-size: 40px;
-    text-align: center;
+    font-size: 48px;
     
 }
 
 h2{
     text-align: center;
+    font-size: 36px;
+    color: black;
 }
 
 button {
@@ -27,6 +29,50 @@ button {
     text-align: center;
 }
 
-.button{
+.button {
     text-align: center;
+}
+
+header { 
+    color: black;
+    background-color: #00c0dd;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.info {
+    background-color: #00c0dd;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.section {
+    border: 3px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.links{
+    text-align: center;
+    background-color: rgb(198, 180, 241);
+    padding: 5px 0;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
 }
