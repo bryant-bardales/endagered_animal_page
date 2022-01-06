@@ -1,22 +1,22 @@
 
 body {
-    background-color: rgb(171, 215, 253);
-    font-size: 21px;
+    background-color: rgb(171, 215, 253); /* Set whole background color to this*/
+    font-size: 21px;/* Sets the font size of everything except h1 and h2 to 21px*/
 }
 
 h1{
-    font-size: 48px;
+    font-size: 62px;/* Set h1 to 48px */
     
 }
 
 h2{
-    text-align: center;
-    font-size: 36px;
-    color: black;
+    text-align: center;/* Set h2 to be centered */
+    font-size: 36px;/* Set h2 to 36px */
+    color: black;/* Set h2 to text color to black*/
 }
 
-button {
-    color: black;
+button { /* Customizes the look of the "CLICK HERE TO DONATE" button */
+    color: black; 
     width: 150px;
     background: goldenrod;
     padding-top: 5px;
@@ -29,50 +29,41 @@ button {
     text-align: center;
 }
 
-.button {
+.button { /* CSS class that centers the button to the middle of the page */
     text-align: center;
 }
 
-header { 
+header { /* Creates a header section for the title of the page with the background color, text color and size of section*/
     color: black;
     background-color: #00c0dd;
     padding: 30px 0;
     text-align: center;
 }
 
-.centerimg {
+.centerimg { /* Centers image and allows image to grow with the page as extended */
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
-.info {
+.info {/* Creates an info section for the title and paragraphs with polar bear info with background color, text color, and size of section */
     background-color: #00c0dd;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
-.section {
+.section {  /* Adds a border around each info section paragraph and seperates each info section slightly with title */
+    display: block;
     border: 3px solid black;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 0px;
-    margin-bottom: 90px;
-    margin-right: 40px;
-    margin-left: 40px;
+    padding: 10px 30px;
+    margin: 0px 40px 90px;
 }
 
-.links{
+.linksection{  /* Creates a small section between title section and info section for hyperlinks to HOME and TIGERS */
+    display: block;
     text-align: center;
     background-color: rgb(198, 180, 241);
     padding: 5px 0;
-}
-
-ul{
-    display: inline-block;
-    text-align: left;
 }
