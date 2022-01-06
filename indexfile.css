@@ -1,4 +1,5 @@
 button {
+    
     color: black;
     width: 150px;
     background: rgba(24, 146, 0, 0.664);
@@ -10,4 +11,20 @@ button {
     margin-bottom: 2px;
     margin-top: 2px;
     text-align: center;
+
+    display: inline;
+    height:20px;
+    width:100px;
+    margin: -20px -50px;
+    position:relative;
+    top:50%;
+    left:50%;
+}
+
+img {
+    width: 1423px;
+    height: 400px;
+    background-size: contain;
+    float: none;
+    margin: 0 15px 0 0;
 }
