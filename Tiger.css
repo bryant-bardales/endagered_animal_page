@@ -4,43 +4,34 @@
   height: 400px;
   background-size: contain;
   float: none;
- margin: 0 15px 0 0;
-}
-
-h1 {
-font-size: 25px;
-  text-align: center;
-  font-family: 'DM Serif Display', serif;
-  color: orange;
+  margin: 0 15px 0 0;
 }
 
 .button{
   display: inline;
-  height:20px;
-    width:100px;
-    margin: -20px -50px;
-    position:relative;
-    top:50%;
-    left:30%;
-
+  height:40px;
+  width:100px;
+  margin: -20px -50px;
+  position:relative;
+  top:90%;
+  left:30%;
 }
 
 li{
   color: black;
-
   font-family: 'DM Serif Display',serif ;
-
+  font-size: 18px;
 }
-
 
 body{
   background-color: #ffdead;
 }
+
 p{
   color: black;
   text-align: center;
   font-family: 'DM Serif Display',serif ;
-
+  font-size: 18px;
 }
 
 h3{
@@ -51,14 +42,14 @@ h3{
   text-align: center;
 
 }
-  .bottom-right {
-    font-family: 'DM Serif Display';
+.bottom-right {
+  font-family: 'DM Serif Display';
   position: absolute;
-  top: 90%;
-  left: 67%;
+  top: 95%;
+  left: 43%;
   transform: translate(-50%, -50%);
-    font-size: 20px;
-  }
+  font-size: 20px;
+}
 .container {
   position: relative;
   text-align: center;
